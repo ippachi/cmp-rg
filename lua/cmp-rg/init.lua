@@ -106,6 +106,7 @@ source.complete = function(self, request, callback)
                         table.insert(items, {
                             label = label,
                             documentation = documentation,
+                            dup = 0,
                         })
                         seen[label] = true
                     end
